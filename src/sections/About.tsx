@@ -38,9 +38,9 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="relative lg:py-24 md:py-20 sm:py-16 px-4">
+    <section id="about" className="relative lg:py-24 md:py-20 sm:py-16 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ScrollReveal className="mb-16">
+        <ScrollReveal className="mb-6">
           <span className="text-indigo-400 text-sm font-semibold tracking-wider uppercase mb-4 block">
             {t("about.label")}
           </span>

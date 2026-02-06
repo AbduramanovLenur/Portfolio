@@ -145,7 +145,7 @@ export function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="relative lg:py-24 md:py-20 sm:py-16 px-4"
+      className="relative lg:py-24 md:py-20 sm:py-16 py-12"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
