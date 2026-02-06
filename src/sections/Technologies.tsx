@@ -28,7 +28,7 @@ function TechCard({ tech }: { tech: Tech }) {
 
   return (
     <motion.div
-      className="group relative p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-slate-800/50 hover:border-slate-700 transition-all duration-300 overflow-hidden"
+      className="group relative p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-slate-800/50 hover:border-slate-700 transition-all duration-300 overflow-hidden h-full"
       whileHover={{ y: -4, scale: 1.01 }}
       transition={{ duration: 0.3 }}
     >
