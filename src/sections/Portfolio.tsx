@@ -69,9 +69,9 @@ function ProjectCard({ project }: { project: Project }) {
         className={`relative h-48 overflow-hidden bg-gradient-to-br ${project.gradient}`}
       >
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-6xl font-bold font-display text-white/10">
+          {/* <div className="text-6xl font-bold font-display text-white/10">
             {title.charAt(0)}
-          </div>
+          </div> */}
         </div>
 
         {/* Overlay on hover */}

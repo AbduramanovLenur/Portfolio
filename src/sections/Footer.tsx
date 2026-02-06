@@ -3,9 +3,17 @@ import { useTranslation } from "react-i18next";
 import { Code2, Send, Linkedin, Github, Mail } from "lucide-react";
 
 const socialLinks = [
-  { icon: Send, href: "https://t.me/lenur_dev", label: "Telegram" },
-  { icon: Linkedin, href: "https://linkedin.com/in/lenur", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com/lenur", label: "GitHub" },
+  { icon: Send, href: "https://t.me/developer_and_seo", label: "Telegram" },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/lenur-abduramanov-9569441bb/",
+    label: "LinkedIn",
+  },
+  {
+    icon: Github,
+    href: "https://github.com/AbduramanovLenur",
+    label: "GitHub",
+  },
   { icon: Mail, href: "mailto:abdiramanovlenur@gmail.com", label: "Email" },
 ];
 

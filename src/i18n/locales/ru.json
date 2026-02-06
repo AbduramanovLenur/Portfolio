@@ -241,9 +241,9 @@
       "title": "Контактная информация",
       "email": "Email",
       "location": "Локация",
-      "location_value": "Remote / Worldwide",
+      "location_value": "Удаленно / По всем миру",
       "timezone": "Часовой пояс",
-      "timezone_value": "UTC+3 (Москва)"
+      "timezone_value": "UTC+5 (Узбекистан)"
     },
     "includes": {
       "title": "Что включено в работу",

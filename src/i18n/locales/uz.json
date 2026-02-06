@@ -240,9 +240,9 @@
       "title": "Aloqa ma'lumotlari",
       "email": "Email",
       "location": "Joylashuv",
-      "location_value": "Remote / Worldwide",
+      "location_value": "Masofaviy / Dunyo bo'ylab",
       "timezone": "Vaqt zonasi",
-      "timezone_value": "UTC+3 (Moskva)"
+      "timezone_value": "UTC+5 (O'zbekiston)"
     },
     "includes": {
       "title": "Ishga nimalar kiradi",
