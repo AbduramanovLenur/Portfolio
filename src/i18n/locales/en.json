@@ -1,0 +1,275 @@
+{
+  "nav": {
+    "about": "About",
+    "technologies": "Technologies",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "discuss": "Discuss Project"
+  },
+  "hero": {
+    "name": "Lenur",
+    "title": "Frontend Developer",
+    "subtitle": "Building fast, modern, and user-friendly interfaces for business",
+    "cta_primary": "Discuss Project",
+    "cta_secondary": "View Portfolio",
+    "scroll_down": "Scroll down",
+    "benefits": {
+      "performance": "Performance",
+      "ux": "UX Focus",
+      "clean_code": "Clean Code",
+      "modern_stack": "Modern Stack"
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "Creating digital products that work",
+    "description1": "Over 3 years specializing in developing modern web interfaces for businesses of all sizes — from startups to corporations.",
+    "description2": "My expertise covers creating complex SPAs, adaptive landing pages, corporate websites, and interactive dashboards. Every project is a balance between aesthetics, performance, and user convenience.",
+    "description3": "I believe that good code is not just working code, but also code that is easy to maintain and scale. That's why I pay special attention to architecture and clean solutions.",
+    "stats": {
+      "experience": "Years Exp.",
+      "projects": "Projects",
+      "clients": "Clients",
+      "satisfaction": "Satisfied"
+    },
+    "advantages_title": "Why work with me",
+    "advantages": {
+      "communication": {
+        "title": "Transparent Communication",
+        "description": "Regular updates, clear deadlines, and open dialogue at all stages"
+      },
+      "deadlines": {
+        "title": "Meeting Deadlines",
+        "description": "Punctuality and responsibility — every project stage on time"
+      },
+      "support": {
+        "title": "Post-Launch Support",
+        "description": "I don't disappear after delivery — help with updates and improvements"
+      }
+    }
+  },
+  "technologies": {
+    "label": "Technologies",
+    "title": "Tools for solving tasks",
+    "subtitle": "I choose technologies for the project, not fit the project to technologies",
+    "stack": {
+      "vue": {
+        "name": "Vue / Nuxt",
+        "description": "Complex interfaces and SPAs with excellent performance"
+      },
+      "react": {
+        "name": "React",
+        "description": "Scalable applications with rich ecosystem"
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "description": "Corporate sites with convenient management system"
+      },
+      "tilda": {
+        "name": "Tilda",
+        "description": "Fast landing pages with visual editor"
+      },
+      "webflow": {
+        "name": "Webflow",
+        "description": "Visually complex projects with animations"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "description": "Type-safe code for reliable applications"
+      }
+    },
+    "more_tech": "Need a stack not on the list?",
+    "more_tech_desc": "Quickly learn new technologies and adapt to project requirements",
+    "ready": "Ready for new challenges"
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Completed Projects",
+    "subtitle": "Every project is not just code, but a business solution with measurable results",
+    "view_project": "View Project",
+    "view_details": "View project",
+    "back_to_portfolio": "← Back to Portfolio",
+    "projects": {
+      "ecommerce": {
+        "title": "E-commerce Platform",
+        "type": "E-commerce",
+        "description": "Development of a modern platform for online sales with user account, cart, and payment system integration",
+        "result": "40% increase in conversion",
+        "full_description": "Full-featured e-commerce platform with modern design and excellent performance. Implemented: product catalog with filters and search, cart with persistence, user account, payment system integration, notification system, responsive design for all devices.",
+        "features": [
+          "Catalog with filters & search",
+          "Persistent cart",
+          "User account",
+          "Payment systems",
+          "Notifications",
+          "Responsive design"
+        ],
+        "challenge": "Create a fast and convenient sales platform with high conversion",
+        "solution": "Used Vue 3 with Composition API for reactivity, Nuxt for SSR and SEO, Pinia for state management"
+      },
+      "crm": {
+        "title": "CRM Dashboard",
+        "type": "CRM",
+        "description": "Customer data management interface with analytics visualization and routine task automation",
+        "result": "60% workflow optimization",
+        "full_description": "Comprehensive CRM system for customer data management. Includes dashboard with analytics, lead management system, task automation, email integration, reports and data export.",
+        "features": [
+          "Analytics dashboard",
+          "Lead management",
+          "Task automation",
+          "Email integration",
+          "Reports & export",
+          "Role-based access"
+        ],
+        "challenge": "Automate routine manager tasks and improve data visibility",
+        "solution": "React with TypeScript for type safety, Recharts for visualization, Tailwind for rapid styling"
+      },
+      "corporate": {
+        "title": "Corporate Website",
+        "type": "Corporate",
+        "description": "Corporate website for IT company with animations, blog, and CMS integration",
+        "result": "60% increase in leads",
+        "full_description": "Modern corporate website with attractive design and smooth animations. Includes service pages, company portfolio, blog with CMS, contact forms, SEO optimization.",
+        "features": [
+          "Smooth animations",
+          "Blog with CMS",
+          "SEO optimization",
+          "Contact forms",
+          "Multilingual",
+          "High performance"
+        ],
+        "challenge": "Create a memorable brand website that attracts clients",
+        "solution": "Next.js for SSR and performance, GSAP for animations, Strapi as headless CMS"
+      },
+      "saas": {
+        "title": "SaaS Landing",
+        "type": "Landing",
+        "description": "Landing page for SaaS product focused on conversion, A/B testing, and analytics",
+        "result": "High 12% conversion",
+        "full_description": "High-conversion landing page for SaaS product. Optimized for lead capture, includes capture forms, demo version, client testimonials, FAQ, analytics integration.",
+        "features": [
+          "Capture forms",
+          "Demo version",
+          "Client testimonials",
+          "FAQ",
+          "A/B testing",
+          "Analytics"
+        ],
+        "challenge": "Maximize visitor to registration conversion",
+        "solution": "Webflow for rapid development and easy editing, integration with Google Analytics and Hotjar"
+      },
+      "pwa": {
+        "title": "Mobile App Interface",
+        "type": "PWA",
+        "description": "PWA application for mobile devices with offline mode and push notifications",
+        "result": "4.8★ in App Store",
+        "full_description": "Progressive web application with native UX. Works offline, sends push notifications, has responsive interface optimized for mobile devices.",
+        "features": [
+          "Offline mode",
+          "Push notifications",
+          "Native UX",
+          "Fast loading",
+          "Cross-platform",
+          "Auto updates"
+        ],
+        "challenge": "Create mobile app without separate iOS and Android development costs",
+        "solution": "Vue 3 with PWA plugin, Firebase for backend and notifications, Vite for fast builds"
+      },
+      "analytics": {
+        "title": "Analytics Dashboard",
+        "type": "Dashboard",
+        "description": "Business metrics visualization system with real-time data updates and custom reports",
+        "result": "Real-time data analytics",
+        "full_description": "Powerful analytics system with real-time data visualization. Supports custom dashboards, report export, metric-based alerts, integration with various data sources.",
+        "features": [
+          "Real-time data",
+          "Custom dashboards",
+          "Report export",
+          "Alerts",
+          "Multiple sources",
+          "Drag-drop widgets"
+        ],
+        "challenge": "Visualize large volumes of data in real-time",
+        "solution": "React with D3.js for complex visualizations, Node.js backend, WebSocket for real-time updates"
+      }
+    },
+    "cta": "Want to see more examples?",
+    "cta_button": "Discuss your project"
+  },
+  "social": {
+    "title": "Let's work together",
+    "subtitle": "Open to projects and collaboration",
+    "links": {
+      "telegram": {
+        "name": "Telegram",
+        "description": "Quick response"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "description": "Professional profile"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": "Project code"
+      },
+      "email": {
+        "name": "Email",
+        "description": "abdiramanovlenur@gmail.com"
+      }
+    },
+    "available": "Available for new projects"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's discuss your project",
+    "subtitle": "Tell me about your task, and I'll get back to you within 24 hours",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "contact": "Contact",
+      "contact_placeholder": "Email or Telegram",
+      "project": "Project Description",
+      "project_placeholder": "Tell me about your project: site type, features, timeline, budget...",
+      "submit": "Send Request",
+      "submitting": "Sending...",
+      "response_time": "Reply within 24 hours",
+      "success_title": "Request sent!",
+      "success_message": "Thank you for reaching out. I'll contact you soon."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "location": "Location",
+      "location_value": "Remote / Worldwide",
+      "timezone": "Timezone",
+      "timezone_value": "UTC+3 (Moscow)"
+    },
+    "includes": {
+      "title": "What's included",
+      "items": [
+        "Requirements analysis & specs",
+        "Prototyping & design",
+        "Development & testing",
+        "Deployment & setup",
+        "Project documentation"
+      ]
+    }
+  },
+  "footer": {
+    "title": "Lenur",
+    "subtitle": "Frontend Developer",
+    "copyright": "© {{year}} Lenur. Made with ❤️ and code",
+    "back_to_top": "Back to top ↑"
+  },
+  "project_page": {
+    "overview": "Project Overview",
+    "features": "Key Features",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "technologies": "Technologies",
+    "result": "Result",
+    "screenshots": "Screenshots",
+    "view_live": "View Live",
+    "view_code": "Source Code"
+  }
+}

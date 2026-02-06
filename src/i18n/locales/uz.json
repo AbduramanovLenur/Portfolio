@@ -1,0 +1,275 @@
+{
+  "nav": {
+    "about": "Men haqimda",
+    "technologies": "Texnologiyalar",
+    "portfolio": "Portfolio",
+    "contact": "Aloqa",
+    "discuss": "Loyiha muhokamasi"
+  },
+  "hero": {
+    "name": "Lenur",
+    "title": "Frontend Developer",
+    "subtitle": "Biznes uchun tez, zamonaviy va qulay interfeyslarni yaratish",
+    "cta_primary": "Loyiha muhokamasi",
+    "cta_secondary": "Portfolioni ko'rish",
+    "scroll_down": "Pastga aylantiring",
+    "benefits": {
+      "performance": "Tezlik",
+      "ux": "UX E'tibor",
+      "clean_code": "Toza Kod",
+      "modern_stack": "Zamonaviy Stack"
+    }
+  },
+  "about": {
+    "label": "Men haqimda",
+    "title": "Ishlaydigan raqamli mahsulotlarni yarataman",
+    "description1": "Startaplardan korporatsiyalargacha turli o'lchamdagi bizneslar uchun zamonaviy veb-interfeyslarni ishlab chiqishga 3 yildan ortiq vaqt davomida ixtisoslashganman.",
+    "description2": "Mening tajribam murakkab SPA-lar, adaptiv landing sahifalar, korporativ veb-saytlar va interaktiv dashboard-larni yaratishni qamrab oladi. Har bir loyiha estetika, samaradorlik va foydalanuvchi qulayligi o'rtasidagi muvozanatdir.",
+    "description3": "Men ishonamanki, yaxshi kod nafaqat ishlaydigan kod, balki uni qo'llab-quvvatlash va kengaytirish oson koddir. Shuning uchun arxitektura va toza yechimlarga alohida e'tibor beraman.",
+    "stats": {
+      "experience": "Yil tajriba",
+      "projects": "Loyihalar",
+      "clients": "Mijozlar",
+      "satisfaction": "Mamnun"
+    },
+    "advantages_title": "Nima uchun men bilan ishlash qulay",
+    "advantages": {
+      "communication": {
+        "title": "Shaffof muloqot",
+        "description": "Muntazam yangilanishlar, aniq muddatlar va barcha bosqichlarda ochiq dialog"
+      },
+      "deadlines": {
+        "title": "Muddatlarni bajarish",
+        "description": "Punktuallik va mas'uliyat — har bir loyiha bosqichi o'z vaqtida"
+      },
+      "support": {
+        "title": "Ishga tushirgandan keyin qo'llab-quvvatlash",
+        "description": "Topshirgandan keyin yo'qolmayman — yangilanishlar va takomillashtirishda yordam beraman"
+      }
+    }
+  },
+  "technologies": {
+    "label": "Texnologiyalar",
+    "title": "Vazifalarni yechish uchun vositalar",
+    "subtitle": "Loyihani texnologiyalarga moslashtirmayman, balki texnologiyalarni loyiha vazifasiga tanlayman",
+    "stack": {
+      "vue": {
+        "name": "Vue / Nuxt",
+        "description": "Ajoyib samaradorlikka ega murakkab interfeyslar va SPA-lar"
+      },
+      "react": {
+        "name": "React",
+        "description": "Boy ekotizimga ega masshtablanuvchi ilovalar"
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "description": "Qulay boshqaruv tizimiga ega korporativ saytlar"
+      },
+      "tilda": {
+        "name": "Tilda",
+        "description": "Vizual muharrir bilan tez landing sahifalar"
+      },
+      "webflow": {
+        "name": "Webflow",
+        "description": "Animatsiyalar bilan vizual jihatdan murakkab loyihalar"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "description": "Ishonchli ilovalar uchun tip-xavfsiz kod"
+      }
+    },
+    "more_tech": "Ro'yxatda yo'q stack kerakmi?",
+    "more_tech_desc": "Yangi texnologiyalarni tez o'rganyapman va loyiha talablariga moslashyapman",
+    "ready": "Yangi chaqiriqlarga tayyorman"
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Bajarilgan loyihalar",
+    "subtitle": "Har bir loyiha nafaqat kod, balki o'lchanadigan natijalarga ega biznes yechimi",
+    "view_project": "Loyihani ko'rish",
+    "view_details": "Loyihani ko'rish",
+    "back_to_portfolio": "← Portfolioga qaytish",
+    "projects": {
+      "ecommerce": {
+        "title": "E-commerce Platforma",
+        "type": "E-commerce",
+        "description": "Foydalanuvchi kabineti, savat va to'lov tizimlari integratsiyasi bilan onlayn sotuvlar uchun zamonaviy platforma",
+        "result": "Konversiya 40% oshdi",
+        "full_description": "Zamonaviy dizayn va ajoyib samaradorlikka ega to'liq funksional e-commerce platforma. Amalga oshirildi: filtrlar va qidiruv bilan mahsulot katalogi, qayta yuklashda saqlanadigan savat, foydalanuvchi kabineti, to'lov tizimlari integratsiyasi, bildirishnoma tizimi, barcha qurilmalar uchun adaptiv dizayn.",
+        "features": [
+          "Filtrlar va qidiruv bilan katalog",
+          "Saqlanadigan savat",
+          "Foydalanuvchi kabineti",
+          "To'lov tizimlari",
+          "Bildirishnomalar",
+          "Adaptiv dizayn"
+        ],
+        "challenge": "Yuqori konversiyaga ega tez va qulay sotuv platformasini yaratish",
+        "solution": "Reaktivlik uchun Composition API bilan Vue 3, SSR va SEO uchun Nuxt, holat boshqaruvi uchun Pinia ishlatdim"
+      },
+      "crm": {
+        "title": "CRM Dashboard",
+        "type": "CRM",
+        "description": "Mijozlar ma'lumotlarini boshqarish interfeysi, analitika vizualizatsiyasi va rutina vazifalarini avtomatlashtirish",
+        "result": "Ish jarayonini 60% optimallashtirish",
+        "full_description": "Mijozlar ma'lumotlarini boshqarish uchun keng qamrovli CRM tizimi. Analitika bilan dashboard, lid boshqaruv tizimi, vazifalarni avtomatlashtirish, email integratsiyasi, hisobotlar va ma'lumotlarni eksport qilishni o'z ichiga oladi.",
+        "features": [
+          "Analitika dashboard",
+          "Lid boshqaruvi",
+          "Vazifalarni avtomatlashtirish",
+          "Email integratsiyasi",
+          "Hisobotlar va eksport",
+          "Rolga asoslangan kirish"
+        ],
+        "challenge": "Menejerlarning rutina vazifalarini avtomatlashtirish va ma'lumotlarni ko'rishni yaxshilash",
+        "solution": "Tip xavfsizligi uchun TypeScript bilan React, vizualizatsiya uchun Recharts, tez uslublash uchun Tailwind"
+      },
+      "corporate": {
+        "title": "Korporativ Website",
+        "type": "Korporativ",
+        "description": "Animatsiyalar, blog va CMS integratsiyasi bilan IT kompaniyasi uchun korporativ veb-sayt",
+        "result": "So'rovlar 60% oshdi",
+        "full_description": "Jozibali dizayn va silliq animatsiyalarga ega zamonaviy korporativ veb-sayt. Xizmatlar sahifalari, kompaniya portfoliyasi, CMS bilan blog, aloqa shakllari, SEO optimallashtirishni o'z ichiga oladi.",
+        "features": [
+          "Silliq animatsiyalar",
+          "CMS bilan blog",
+          "SEO optimallashtirish",
+          "Aloqa shakllari",
+          "Ko'p tillilik",
+          "Yuqori samaradorlik"
+        ],
+        "challenge": "Mijozlarni jalb qiladigan esda qolarli brend veb-saytini yaratish",
+        "solution": "SSR va samaradorlik uchun Next.js, animatsiyalar uchun GSAP, headless CMS sifatida Strapi"
+      },
+      "saas": {
+        "title": "SaaS Landing",
+        "type": "Landing",
+        "description": "Konversiya, A/B testlash va analitikaga e'tibor qaratilgan SaaS mahsuloti uchun landing sahifa",
+        "result": "Yuqori 12% konversiya",
+        "full_description": "SaaS mahsuloti uchun yuqori konversiyali landing sahifa. Lead olish uchun optimallashtirilgan, olish shakllari, demo versiya, mijozlar fikrlari, FAQ, analitika integratsiyasini o'z ichiga oladi.",
+        "features": [
+          "Olish shakllari",
+          "Demo versiya",
+          "Mijozlar fikrlari",
+          "FAQ",
+          "A/B testlash",
+          "Analitika"
+        ],
+        "challenge": "Tashrif buyuruvchilarni ro'yxatdan o'tkazish konversiyasini maksimal darajada oshirish",
+        "solution": "Tez ishlab chiqish va oson tahrirlash uchun Webflow, Google Analytics va Hotjar bilan integratsiya"
+      },
+      "pwa": {
+        "title": "Mobile App Interface",
+        "type": "PWA",
+        "description": "Oflayn rejim va push-bildirishnomalar bilan mobil qurilmalar uchun PWA ilovasi",
+        "result": "4.8★ App Store'da",
+        "full_description": "Native UX bilan progressiv veb-ilova. Oflayn ishlaydi, push-bildirishnomalar yuboradi, mobil qurilmalar uchun optimallashtirilgan javob beruvchi interfeysga ega.",
+        "features": [
+          "Oflayn rejim",
+          "Push-bildirishnomalar",
+          "Native UX",
+          "Tez yuklash",
+          "Kross-platforma",
+          "Avto yangilanishlar"
+        ],
+        "challenge": "iOS va Android uchun alohida ishlab chiqish xarajatlarisiz mobil ilova yaratish",
+        "solution": "PWA plagini bilan Vue 3, backend va bildirishnomalar uchun Firebase, tez yig'ish uchun Vite"
+      },
+      "analytics": {
+        "title": "Analytics Dashboard",
+        "type": "Dashboard",
+        "description": "Real-vaqt ma'lumotlar yangilanishi va maxsus hisobotlar bilan biznes metrikalarini vizualizatsiya tizimi",
+        "result": "Real-vaqt ma'lumotlar analitikasi",
+        "full_description": "Real-vaqt ma'lumotlar vizualizatsiyasi bilan kuchli analitika tizimi. Maxsus dashboard-larni, hisobotlarni eksport qilishni, metrikalar asosida ogohlantirishlarni, turli ma'lumot manbalari bilan integratsiyani qo'llab-quvvatlaydi.",
+        "features": [
+          "Real-vaqt ma'lumotlar",
+          "Maxsus dashboard-lar",
+          "Hisobotlarni eksport",
+          "Ogohlantirishlar",
+          "Ko'p manbalar",
+          "Drag-drop vidjetlar"
+        ],
+        "challenge": "Katta hajmdagi ma'lumotlarni real-vaqt rejimida vizualizatsiya qilish",
+        "solution": "Murakkab vizualizatsiyalar uchun D3.js bilan React, Node.js backend, real-vaqt yangilanishlari uchun WebSocket"
+      }
+    },
+    "cta": "Ko'proq misollarni ko'rmoqchimisiz?",
+    "cta_button": "Loyihangizni muhokama qiling"
+  },
+  "social": {
+    "title": "Keling, birga ishlaylik",
+    "subtitle": "Loyihalar va hamkorlikka ochiqman",
+    "links": {
+      "telegram": {
+        "name": "Telegram",
+        "description": "Tez javob"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "description": "Professional profil"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": "Loyiha kodi"
+      },
+      "email": {
+        "name": "Email",
+        "description": "abdiramanovlenur@gmail.com"
+      }
+    },
+    "available": "Yangi loyihalar uchun mavjud"
+  },
+  "contact": {
+    "label": "Aloqa",
+    "title": "Loyihangizni muhokama qilaylik",
+    "subtitle": "Vazifangiz haqida ayting, men 24 soat ichida siz bilan bog'lanaman",
+    "form": {
+      "name": "Ism",
+      "name_placeholder": "Sizning ismingiz",
+      "contact": "Aloqa",
+      "contact_placeholder": "Email yoki Telegram",
+      "project": "Loyiha tavsifi",
+      "project_placeholder": "Loyihangiz haqida ayting: sayt turi, funksionallik, muddat, byudjet...",
+      "submit": "So'rov yuborish",
+      "submitting": "Yuborilmoqda...",
+      "response_time": "24 soat ichida javob beraman",
+      "success_title": "So'rov yuborildi!",
+      "success_message": "Murojaatingiz uchun rahmat. Tez orada siz bilan bog'lanaman."
+    },
+    "info": {
+      "title": "Aloqa ma'lumotlari",
+      "email": "Email",
+      "location": "Joylashuv",
+      "location_value": "Remote / Worldwide",
+      "timezone": "Vaqt zonasi",
+      "timezone_value": "UTC+3 (Moskva)"
+    },
+    "includes": {
+      "title": "Ishga nimalar kiradi",
+      "items": [
+        "Talablarni tahlil qilish va TZ",
+        "Prototiplash va dizayn",
+        "Ishlab chiqish va testlash",
+        "Joylashtirish va sozlash",
+        "Loyiha hujjatlari"
+      ]
+    }
+  },
+  "footer": {
+    "title": "Lenur",
+    "subtitle": "Frontend Developer",
+    "copyright": "© {{year}} Lenur. ❤️ va kod bilan yaratilgan",
+    "back_to_top": "Yuqoriga ↑"
+  },
+  "project_page": {
+    "overview": "Loyiha ko'rinishi",
+    "features": "Asosiy funksiyalar",
+    "challenge": "Vazifa",
+    "solution": "Yechim",
+    "technologies": "Texnologiyalar",
+    "result": "Natija",
+    "screenshots": "Skrinshotlar",
+    "view_live": "Live ko'rish",
+    "view_code": "Manba kodi"
+  }
+}
