@@ -90,107 +90,41 @@
     "view_details": "Loyihani ko'rish",
     "back_to_portfolio": "← Portfolioga qaytish",
     "projects": {
-      "ecommerce": {
-        "title": "E-commerce Platforma",
+      "eshikchi": {
+        "title": "ERP Platformasi (Eshikchi)",
+        "type": "ERP",
+        "description": "Kompaniya ichki jarayonlarini to‘liq avtomatlashtirish uchun ERP tizimi ishlab chiqildi: buyurtmalar, xodimlar, mijozlar va vazifalarni yagona raqamli tizimda boshqarish.",
+        "result": "Biznes jarayonlari samaradorligi oshdi"
+      },
+      "goldenkey": {
+        "title": "Onlayn biznes-zalni bron qilish platformasi (Goldenkey)",
         "type": "E-commerce",
-        "description": "Foydalanuvchi kabineti, savat va to'lov tizimlari integratsiyasi bilan onlayn sotuvlar uchun zamonaviy platforma",
-        "result": "Konversiya 40% oshdi",
-        "full_description": "Zamonaviy dizayn va ajoyib samaradorlikka ega to'liq funksional e-commerce platforma. Amalga oshirildi: filtrlar va qidiruv bilan mahsulot katalogi, qayta yuklashda saqlanadigan savat, foydalanuvchi kabineti, to'lov tizimlari integratsiyasi, bildirishnoma tizimi, barcha qurilmalar uchun adaptiv dizayn.",
-        "features": [
-          "Filtrlar va qidiruv bilan katalog",
-          "Saqlanadigan savat",
-          "Foydalanuvchi kabineti",
-          "To'lov tizimlari",
-          "Bildirishnomalar",
-          "Adaptiv dizayn"
-        ],
-        "challenge": "Yuqori konversiyaga ega tez va qulay sotuv platformasini yaratish",
-        "solution": "Reaktivlik uchun Composition API bilan Vue 3, SSR va SEO uchun Nuxt, holat boshqaruvi uchun Pinia ishlatdim"
+        "description": "Biznes zallarni bron qilish va chiptalar hamda xizmatlarni korporativ sayt orqali xarid qilish platformasi.",
+        "result": "Onlayn savdolar o‘sishi va avtomatlashtirish"
       },
-      "crm": {
-        "title": "CRM Dashboard",
-        "type": "CRM",
-        "description": "Mijozlar ma'lumotlarini boshqarish interfeysi, analitika vizualizatsiyasi va rutina vazifalarini avtomatlashtirish",
-        "result": "Ish jarayonini 60% optimallashtirish",
-        "full_description": "Mijozlar ma'lumotlarini boshqarish uchun keng qamrovli CRM tizimi. Analitika bilan dashboard, lid boshqaruv tizimi, vazifalarni avtomatlashtirish, email integratsiyasi, hisobotlar va ma'lumotlarni eksport qilishni o'z ichiga oladi.",
-        "features": [
-          "Analitika dashboard",
-          "Lid boshqaruvi",
-          "Vazifalarni avtomatlashtirish",
-          "Email integratsiyasi",
-          "Hisobotlar va eksport",
-          "Rolga asoslangan kirish"
-        ],
-        "challenge": "Menejerlarning rutina vazifalarini avtomatlashtirish va ma'lumotlarni ko'rishni yaxshilash",
-        "solution": "Tip xavfsizligi uchun TypeScript bilan React, vizualizatsiya uchun Recharts, tez uslublash uchun Tailwind"
+      "music_store": {
+        "title": "Onlayn musiqiy asboblar do‘koni (AKA Music)",
+        "type": "E-commerce",
+        "description": "Musiqiy asboblar va aksessuarlarni onlayn sotish platformasi, qulay katalog va sayt orqali xarid imkoniyati bilan.",
+        "result": "Onlayn savdolar o‘sishi"
       },
-      "corporate": {
-        "title": "Korporativ Website",
-        "type": "Korporativ",
-        "description": "Animatsiyalar, blog va CMS integratsiyasi bilan IT kompaniyasi uchun korporativ veb-sayt",
-        "result": "So'rovlar 60% oshdi",
-        "full_description": "Jozibali dizayn va silliq animatsiyalarga ega zamonaviy korporativ veb-sayt. Xizmatlar sahifalari, kompaniya portfoliyasi, CMS bilan blog, aloqa shakllari, SEO optimallashtirishni o'z ichiga oladi.",
-        "features": [
-          "Silliq animatsiyalar",
-          "CMS bilan blog",
-          "SEO optimallashtirish",
-          "Aloqa shakllari",
-          "Ko'p tillilik",
-          "Yuqori samaradorlik"
-        ],
-        "challenge": "Mijozlarni jalb qiladigan esda qolarli brend veb-saytini yaratish",
-        "solution": "SSR va samaradorlik uchun Next.js, animatsiyalar uchun GSAP, headless CMS sifatida Strapi"
+      "carpet_catalog": {
+        "title": "Onlayn gilam katalogi (YEC)",
+        "type": "E-commerce",
+        "description": "Gilamlarni onlayn ko‘rish va xarid qilish platformasi, qulay katalog va filtrlar bilan.",
+        "result": "Mijozlar soni oshdi"
       },
-      "saas": {
-        "title": "SaaS Landing",
-        "type": "Landing",
-        "description": "Konversiya, A/B testlash va analitikaga e'tibor qaratilgan SaaS mahsuloti uchun landing sahifa",
-        "result": "Yuqori 12% konversiya",
-        "full_description": "SaaS mahsuloti uchun yuqori konversiyali landing sahifa. Lead olish uchun optimallashtirilgan, olish shakllari, demo versiya, mijozlar fikrlari, FAQ, analitika integratsiyasini o'z ichiga oladi.",
-        "features": [
-          "Olish shakllari",
-          "Demo versiya",
-          "Mijozlar fikrlari",
-          "FAQ",
-          "A/B testlash",
-          "Analitika"
-        ],
-        "challenge": "Tashrif buyuruvchilarni ro'yxatdan o'tkazish konversiyasini maksimal darajada oshirish",
-        "solution": "Tez ishlab chiqish va oson tahrirlash uchun Webflow, Google Analytics va Hotjar bilan integratsiya"
+      "construction_corp": {
+        "title": "Qurilish kompaniyasi korporativ sayti (Bertem)",
+        "type": "Corporate",
+        "description": "Qurilish kompaniyasining xizmatlari, loyihalari va jamoasini taqdim etuvchi sayt, zamonaviy dizayn va qulay navigatsiya bilan.",
+        "result": "Mijozlar ishonchi oshdi"
       },
-      "pwa": {
-        "title": "Mobile App Interface",
-        "type": "PWA",
-        "description": "Oflayn rejim va push-bildirishnomalar bilan mobil qurilmalar uchun PWA ilovasi",
-        "result": "4.8★ App Store'da",
-        "full_description": "Native UX bilan progressiv veb-ilova. Oflayn ishlaydi, push-bildirishnomalar yuboradi, mobil qurilmalar uchun optimallashtirilgan javob beruvchi interfeysga ega.",
-        "features": [
-          "Oflayn rejim",
-          "Push-bildirishnomalar",
-          "Native UX",
-          "Tez yuklash",
-          "Kross-platforma",
-          "Avto yangilanishlar"
-        ],
-        "challenge": "iOS va Android uchun alohida ishlab chiqish xarajatlarisiz mobil ilova yaratish",
-        "solution": "PWA plagini bilan Vue 3, backend va bildirishnomalar uchun Firebase, tez yig'ish uchun Vite"
-      },
-      "analytics": {
-        "title": "Analytics Dashboard",
-        "type": "Dashboard",
-        "description": "Real-vaqt ma'lumotlar yangilanishi va maxsus hisobotlar bilan biznes metrikalarini vizualizatsiya tizimi",
-        "result": "Real-vaqt ma'lumotlar analitikasi",
-        "full_description": "Real-vaqt ma'lumotlar vizualizatsiyasi bilan kuchli analitika tizimi. Maxsus dashboard-larni, hisobotlarni eksport qilishni, metrikalar asosida ogohlantirishlarni, turli ma'lumot manbalari bilan integratsiyani qo'llab-quvvatlaydi.",
-        "features": [
-          "Real-vaqt ma'lumotlar",
-          "Maxsus dashboard-lar",
-          "Hisobotlarni eksport",
-          "Ogohlantirishlar",
-          "Ko'p manbalar",
-          "Drag-drop vidjetlar"
-        ],
-        "challenge": "Katta hajmdagi ma'lumotlarni real-vaqt rejimida vizualizatsiya qilish",
-        "solution": "Murakkab vizualizatsiyalar uchun D3.js bilan React, Node.js backend, real-vaqt yangilanishlari uchun WebSocket"
+      "agro_university": {
+        "title": "O‘zbekiston Qishloq xo‘jaligi universiteti sayti (TDAU)",
+        "type": "Corporate",
+        "description": "Universitet, fakultetlar, yangiliklar va ta’lim dasturlari haqida ma’lumot taqdim etuvchi sayt, qulay navigatsiya bilan.",
+        "result": "Talabalar faoliyati oshdi"
       }
     },
     "cta": "Ko'proq misollarni ko'rmoqchimisiz?",

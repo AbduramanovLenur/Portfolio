@@ -14,38 +14,71 @@ interface Project {
   id: string;
   gradient: string;
   technologies: string[];
+  link?: string;
 }
 
 const projects: Project[] = [
   {
-    id: "ecommerce",
+    id: "eshikchi",
     gradient: "from-indigo-500/20 to-purple-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    technologies: [
+      "ReactJS",
+      "Redux Toolkit",
+      "JavaScript",
+      "TypeScript",
+      "Ant Design",
+      "React Query",
+      "React DND",
+    ],
   },
   {
-    id: "crm",
-    gradient: "from-purple-500/20 to-pink-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    id: "goldenkey",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: ["VueJS", "NuxtJS", "Vuex", "JavaScript", "Ant Design"],
   },
   {
-    id: "corporate",
-    gradient: "from-cyan-500/20 to-blue-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    id: "music_store",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: [
+      "NuxtJS",
+      "Pinia",
+      "JavaScript",
+      "TypeScript",
+      "NuxtUI",
+      "Vue Query",
+      "Vee Validate",
+    ],
   },
   {
-    id: "saas",
-    gradient: "from-emerald-500/20 to-teal-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    id: "carpet_catalog",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: ["NuxtJS", "Pinia", "JavaScript", "TypeScript", "Vue Query"],
   },
   {
-    id: "pwa",
-    gradient: "from-orange-500/20 to-red-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    id: "construction_corp",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: [
+      "Wordpress",
+      "SCF",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "AlpineJS",
+    ],
   },
   {
-    id: "analytics",
-    gradient: "from-violet-500/20 to-indigo-500/20",
-    technologies: ["Vue 3", "Nuxt", "Pinia", "Tailwind"],
+    id: "agro_university",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: [
+      "Wordpress",
+      "SCF",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "AlpineJS",
+    ],
   },
 ];
 
@@ -72,6 +105,14 @@ function ProjectCard({ project }: { project: Project }) {
           {/* <div className="text-6xl font-bold font-display text-white/10">
             {title.charAt(0)}
           </div> */}
+          <img
+            src={`/images/${project.id}.webp`}
+            alt={title}
+            className="w-full h-full object-cover object-top"
+            loading="lazy"
+            width={384}
+            height={192}
+          />
         </div>
 
         {/* Overlay on hover */}
@@ -117,15 +158,18 @@ function ProjectCard({ project }: { project: Project }) {
         </div>
 
         {/* Links */}
-        <div className="flex items-center gap-4">
-          <a
-            href={`/project/${project.id}`}
-            className="flex items-center gap-2 text-indigo-400 text-sm font-medium group/link hover:underline"
-          >
-            {t("portfolio.view_details")}
-            <ArrowRight className="w-4 h-4 transition-transform group-hover/link:translate-x-1" />
-          </a>
-        </div>
+        {project.link && (
+          <div className="flex items-center gap-4">
+            <a
+              href={project.link}
+              className="flex items-center gap-2 text-indigo-400 text-sm font-medium group/link hover:underline"
+              target="_blank"
+            >
+              {t("portfolio.view_details")}
+              <ArrowRight className="w-4 h-4 transition-transform group-hover/link:translate-x-1" />
+            </a>
+          </div>
+        )}
       </div>
 
       {/* Border glow on hover */}
