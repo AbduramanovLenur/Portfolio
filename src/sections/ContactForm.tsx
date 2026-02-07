@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { sendToTelegram } from "@/lib/telegram";
 
 export function ContactForm() {
   const { t } = useTranslation();
@@ -18,11 +19,20 @@ export function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get("name")?.toString() || "";
+    const contact = formData.get("contact")?.toString() || "";
+    const project = formData.get("project")?.toString() || "";
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+    try {
+      await sendToTelegram(name, contact, project);
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error(error);
+      alert("Ошибка при отправке. Попробуйте снова.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const includesItems = t("contact.includes.items", {
