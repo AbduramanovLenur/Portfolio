@@ -121,10 +121,16 @@
         "result": "Mijozlar ishonchi oshdi"
       },
       "agro_university": {
-        "title": "O‘zbekiston Qishloq xo‘jaligi universiteti sayti (TDAU)",
+        "title": "O'zbekiston Qishloq xo'jaligi universiteti sayti (TDAU)",
         "type": "Corporate",
-        "description": "Universitet, fakultetlar, yangiliklar va ta’lim dasturlari haqida ma’lumot taqdim etuvchi sayt, qulay navigatsiya bilan.",
+        "description": "Universitet, fakultetlar, yangiliklar va ta'lim dasturlari haqida ma'lumot taqdim etuvchi sayt, qulay navigatsiya bilan.",
         "result": "Talabalar faoliyati oshdi"
+      },
+      "ishon": {
+        "title": "Xodimlar davomat tizimi (Ishon)",
+        "type": "Admin Panel + Telegram Bot",
+        "description": "Admin paneli va Telegram botiga ega veb-ilova — xodimlarning kelish va ketish vaqtini Face ID orqali avtomatik nazorat qilish. Tizim yuzni tanib, maxsus kartochkasiz vaqtni qayd etadi.",
+        "result": "Davomat kamayishi va aniq ish vaqti hisobi"
       }
     },
     "cta": "Ko'proq misollarni ko'rmoqchimisiz?",

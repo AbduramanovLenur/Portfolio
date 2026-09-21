@@ -125,6 +125,12 @@
         "type": "Corporate",
         "description": "Website presenting information about the university, faculties, news, and educational programs with easy navigation.",
         "result": "Higher student engagement"
+      },
+      "ishon": {
+        "title": "Employee Attendance System (Ishon)",
+        "type": "Admin Panel + Telegram Bot",
+        "description": "Web application with admin panel and Telegram bot for automatic employee check-in and check-out tracking via Face ID. The system recognizes faces and logs time without badges or access cards.",
+        "result": "Reduced absenteeism and accurate time tracking"
       }
     },
     "cta": "Want to see more examples?",

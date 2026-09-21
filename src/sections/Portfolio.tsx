@@ -15,6 +15,7 @@ interface Project {
   gradient: string;
   technologies: string[];
   link?: string;
+  image?: string;
 }
 
 const projects: Project[] = [
@@ -80,6 +81,20 @@ const projects: Project[] = [
       "AlpineJS",
     ],
   },
+  {
+    id: "ishon",
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    technologies: [
+      "ReactJS",
+      "Ant Design",
+      "Redux Toolkit",
+      "Tanstack Query",
+      "JavaScript",
+      "TypeScript",
+      "Telegram Bot API",
+    ],
+    image: "ishon.png",
+  },
 ];
 
 function ProjectCard({ project }: { project: Project }) {
@@ -106,7 +121,7 @@ function ProjectCard({ project }: { project: Project }) {
             {title.charAt(0)}
           </div> */}
           <img
-            src={`/images/${project.id}.webp`}
+            src={`/images/${project.image || `${project.id}.webp`}`}
             alt={title}
             className="w-full h-full object-cover object-top"
             loading="lazy"

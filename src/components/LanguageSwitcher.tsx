@@ -8,7 +8,8 @@ export function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  const currentLanguage = languages.find((lang) => lang.code === i18n.language) || languages[0];
+  const resolvedLng = i18n.resolvedLanguage || i18n.language;
+  const currentLanguage = languages.find((lang) => resolvedLng.startsWith(lang.code)) || languages[0];
 
   const handleLanguageChange = (code: string) => {
     i18n.changeLanguage(code);
@@ -50,7 +51,7 @@ export function LanguageSwitcher() {
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang.code)}
                   className={`w-full flex items-center justify-between gap-3 px-3 py-2.5 rounded-lg text-sm transition-all duration-200 ${
-                    i18n.language === lang.code
+                    resolvedLng.startsWith(lang.code)
                       ? 'bg-indigo-500/20 text-indigo-400'
                       : 'text-slate-400 hover:text-white hover:bg-slate-800'
                   }`}
@@ -60,7 +61,7 @@ export function LanguageSwitcher() {
                     <span className="text-lg">{lang.flag}</span>
                     <span className="font-medium">{lang.label}</span>
                   </div>
-                  {i18n.language === lang.code && (
+                  {resolvedLng.startsWith(lang.code) && (
                     <Check className="w-4 h-4" />
                   )}
                 </motion.button>
