@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "about": "About",
+    "technologies": "Technologies",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "discuss": "Discuss Project"
+  },
+  "hero": {
+    "name": "Lenur",
+    "title": "Frontend Developer",
+    "subtitle": "Building fast, modern, and user-friendly interfaces for business",
+    "cta_primary": "Discuss Project",
+    "cta_secondary": "View Portfolio",
+    "scroll_down": "Scroll down",
+    "benefits": {
+      "performance": "Performance",
+      "ux": "UX Focus",
+      "clean_code": "Clean Code",
+      "modern_stack": "Modern Stack"
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "Creating digital products that work",
+    "title_accent": "that work",
+    "description1": "Over 3 years specializing in developing modern web interfaces for businesses of all sizes — from startups to corporations.",
+    "description2": "My expertise covers creating complex SPAs, adaptive landing pages, corporate websites, and interactive dashboards. Every project is a balance between aesthetics, performance, and user convenience.",
+    "description3": "I believe that good code is not just working code, but also code that is easy to maintain and scale. That's why I pay special attention to architecture and clean solutions.",
+    "stats": {
+      "experience": "Years Exp.",
+      "projects": "Projects",
+      "clients": "Clients",
+      "satisfaction": "Satisfied"
+    },
+    "advantages_title": "Why work with me",
+    "advantages": {
+      "communication": {
+        "title": "Transparent Communication",
+        "description": "Regular updates, clear deadlines, and open dialogue at all stages"
+      },
+      "deadlines": {
+        "title": "Meeting Deadlines",
+        "description": "Punctuality and responsibility — every project stage on time"
+      },
+      "support": {
+        "title": "Post-Launch Support",
+        "description": "I don't disappear after delivery — help with updates and improvements"
+      }
+    }
+  },
+  "technologies": {
+    "label": "Technologies",
+    "title": "Tools for solving tasks",
+    "subtitle": "I choose technologies for the project, not fit the project to technologies",
+    "stack": {
+      "vue": {
+        "name": "Vue / Nuxt",
+        "description": "Complex interfaces and SPAs with excellent performance"
+      },
+      "react": {
+        "name": "React",
+        "description": "Scalable applications with rich ecosystem"
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "description": "Corporate sites with convenient management system"
+      },
+      "tilda": {
+        "name": "Tilda",
+        "description": "Fast landing pages with visual editor"
+      },
+      "webflow": {
+        "name": "Webflow",
+        "description": "Visually complex projects with animations"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "description": "Type-safe code for reliable applications"
+      }
+    },
+    "more_tech": "Need a stack not on the list?",
+    "more_tech_desc": "Quickly learn new technologies and adapt to project requirements",
+    "ready": "Ready for new challenges"
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Completed Projects",
+    "title_accent": "Projects",
+    "subtitle": "Every project is not just code, but a business solution with measurable results",
+    "view_project": "View Project",
+    "view_details": "View project",
+    "back_to_portfolio": "← Back to Portfolio",
+    "projects": {
+      "eshikchi": {
+        "title": "ERP Platform (Eshikchi)",
+        "type": "ERP",
+        "description": "Development of an ERP system to fully automate internal company processes: managing orders, employees, clients, and tasks within a unified digital system.",
+        "result": "Improved business process efficiency"
+      },
+      "goldenkey": {
+        "title": "Online business lounge booking platform (Goldenkey)",
+        "type": "E-commerce",
+        "description": "Platform for booking lounges and purchasing tickets and services via the corporate website.",
+        "result": "Increased online sales and automation"
+      },
+      "music_store": {
+        "title": "Online Music Store (AKA Music)",
+        "type": "E-commerce",
+        "description": "Platform for selling musical instruments and accessories online with an easy-to-use catalog and website purchasing.",
+        "result": "Increased online sales"
+      },
+      "carpet_catalog": {
+        "title": "Online Carpet Catalog (YEC)",
+        "type": "E-commerce",
+        "description": "Platform for browsing and purchasing carpets online with an easy-to-use catalog and filters.",
+        "result": "Higher customer engagement"
+      },
+      "construction_corp": {
+        "title": "Construction Company Website (Bertem)",
+        "type": "Corporate",
+        "description": "Website showcasing services, projects, and team of a construction company with modern design and easy navigation.",
+        "result": "Enhanced client trust"
+      },
+      "agro_university": {
+        "title": "Agricultural University of Uzbekistan Website (TSAU)",
+        "type": "Corporate",
+        "description": "Website presenting information about the university, faculties, news, and educational programs with easy navigation.",
+        "result": "Higher student engagement"
+      },
+      "ishon": {
+        "title": "Employee Attendance System (Ishon)",
+        "type": "Admin Panel + Telegram Bot",
+        "description": "Web application with admin panel and Telegram bot for automatic employee check-in and check-out tracking via Face ID. The system recognizes faces and logs time without badges or access cards.",
+        "result": "Reduced absenteeism and accurate time tracking"
+      }
+    },
+    "cta": "Want to see more examples?",
+    "cta_button": "Discuss your project"
+  },
+  "social": {
+    "title": "Let's work together",
+    "title_accent": "together",
+    "subtitle": "Open to projects and collaboration",
+    "links": {
+      "telegram": {
+        "name": "Telegram",
+        "description": "Quick response"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "description": "Professional profile"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": "Project code"
+      },
+      "email": {
+        "name": "Email",
+        "description": "abdiramanovlenur@gmail.com"
+      }
+    },
+    "available": "Available for new projects"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's discuss your project",
+    "title_accent": "project",
+    "subtitle": "Tell me about your task, and I'll get back to you within 24 hours",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "contact": "Contact",
+      "contact_placeholder": "Email or Telegram",
+      "project": "Project Description",
+      "project_placeholder": "Tell me about your project: site type, features, timeline, budget...",
+      "submit": "Send Request",
+      "submitting": "Sending...",
+      "response_time": "Reply within 24 hours",
+      "success_title": "Request sent!",
+      "success_message": "Thank you for reaching out. I'll contact you soon."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "location": "Location",
+      "location_value": "Remote / Worldwide",
+      "timezone": "Timezone",
+      "timezone_value": "UTC+5 (Uzbekistan)"
+    },
+    "includes": {
+      "title": "What's included",
+      "items": [
+        "Requirements analysis & specs",
+        "Prototyping & design",
+        "Development & testing",
+        "Deployment & setup",
+        "Project documentation"
+      ]
+    }
+  },
+  "footer": {
+    "title": "Lenur",
+    "subtitle": "Frontend Developer",
+    "copyright": "© {{year}} Lenur. Made with ❤️ and code",
+    "back_to_top": "Back to top ↑"
+  },
+  "project_page": {
+    "overview": "Project Overview",
+    "features": "Key Features",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "technologies": "Technologies",
+    "result": "Result",
+    "screenshots": "Screenshots",
+    "view_live": "View Live",
+    "view_code": "Source Code"
+  }
+}
